@@ -6,7 +6,7 @@ interface UserPrisonfellowship {
 const userPrisonfellowship: UserPrisonfellowship = {} as UserPrisonfellowship;
 
 userPrisonfellowship.displayStartupInformation = (_req, res) => {
-  res.send('Hola, esta es la APi de personas a contactar!!')
+  res.send('Hello, this is the use authentication api for the prision fellowship!!')
 }
 
 userPrisonfellowship.pageNotFound = (_req, res) => {
