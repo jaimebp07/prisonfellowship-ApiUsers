@@ -1,7 +1,9 @@
+import { Request, Response } from "express";
+
 interface UserPrisonfellowship {
-    displayStartupInformation: (req: any, res: any) => void;
-    pageNotFound: (req: any, res: any) => void;
-  }
+  displayStartupInformation: (req: Request, res: Response) => void;
+  pageNotFound: (req: Request, res: Response) => void;
+}
 
 const userPrisonfellowship: UserPrisonfellowship = {} as UserPrisonfellowship;
 
